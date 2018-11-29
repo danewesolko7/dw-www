@@ -1,0 +1,51 @@
+// Banner - Hero
+// -----------------------------------------------------------------------------
+.c-banner-hero {
+  width: 100%;
+  height: 504px;
+  padding: 0 2.75em;
+  @include breakpoint($medium) {
+    padding: 0 10em;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: $blue;
+  background-image: url("../img/banner_background__home.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right bottom;
+  color: $white;
+  .c-banner-hero__title,
+  .c-banner-hero__subtitle,
+  .c-banner-hero__desc {
+    width: 100%;
+    margin: 0;
+  }
+  .c-banner-hero__subtitle,
+  .c-banner-hero__desc{
+    line-height: 1.35;
+  }
+  .c-banner-hero__rule {
+    width: 48px;
+    height: 2px;
+    background-color: $white;
+    margin-bottom: 1.6rem;
+  }
+  .c-banner-hero__title {
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 1.25;
+    margin-bottom: 3.2rem;
+  }
+  .c-banner-hero__subtitle {
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .c-banner-hero__desc {
+    font-size: 1.8rem;
+    max-width: $body-container;
+  }
+}

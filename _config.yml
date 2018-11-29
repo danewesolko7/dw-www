@@ -1,0 +1,19 @@
+collections:
+  - authors
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+favicon:
+  source: favicon.svg
+  path: /assets/img
+
+permalink: /:title

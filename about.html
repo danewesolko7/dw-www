@@ -1,0 +1,16 @@
+---
+title: About
+class: page
+---
+
+{% include banner-page.html %}
+
+<div class="u-pad">
+  <div class="body-container">
+    {% for author in site.authors %}
+    <p>{{ author.content | markdownify }}</p>
+    {% endfor %}
+  </div>
+</div>
+
+{% include global-cta.html %}

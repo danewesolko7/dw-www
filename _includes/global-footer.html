@@ -1,0 +1,16 @@
+<footer class="c-global-footer">
+  <div class="c-global-footer__wrapper">
+    <div class="c-global-footer__copyright">
+      <h4 class="c-global-footer__logo">DW</h4>
+      <p class="c-global-footer__info">&#169;<script type="text/javascript">document.write(new Date().getFullYear());</script>. All rights reserved.
+      </p>
+    </div>
+    <ul class="c-global-footer__list">
+      {% for item in site.data.social-media %}
+      <li class="c-global-footer__listitem">
+        <a class="c-global-footer__listitem-link" href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>

@@ -1,0 +1,32 @@
+// Themes
+// -----------------------------------------------------------------------------
+.page .c-global-nav .c-global-nav__wrapper {
+  background-color: $gray;
+}
+
+.pfizer .c-global-nav .c-global-nav__wrapper,
+.pfizer .c-banner-casestudy {
+  background-color: $pfizer;
+}
+.pfizer .c-intro-casestudy,
+.pfizer .c-casestudy-results {
+  background-color: $pfizer-dark;
+}
+
+.coramed .c-global-nav .c-global-nav__wrapper,
+.coramed .c-banner-casestudy {
+  background-color: $coramed;
+}
+.coramed .c-intro-casestudy,
+.coramed .c-casestudy-results {
+  background-color: $coramed-dark;
+}
+
+.iqvia .c-global-nav .c-global-nav__wrapper,
+.iqvia .c-banner-casestudy {
+  background-color: $iqvia;
+}
+.iqvia .c-intro-casestudy,
+.iqvia .c-casestudy-results {
+  background-color: $iqvia-dark;
+}

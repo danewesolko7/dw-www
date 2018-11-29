@@ -1,0 +1,41 @@
+// Variables
+// -----------------------------------------------------------------------------
+// Breakpoints
+$small: (max-width: 1024px);
+$medium: (min-width: 1024px);
+
+//Container
+$container: 1200px;
+$body-container: 540px;
+
+// Colors - Primary
+$blue: #007FFF;
+$yellow: #FFDB86;
+$red: #FF5E5E;
+// Colors - Shades
+$blue-dark: #004C99;
+$red-dark: #CC4B4B;
+// Colors - Neutral
+$gray: #444444;
+$gray-light: #F5F5F5;
+$white: #ffffff;
+// Colors - Fonts
+$font-color: $gray;
+// Colors - Utility
+$action: $red;
+$action-hover: $red-dark;
+// Colors - Themes
+$pfizer: #8B84D7;
+$pfizer-dark: #615C96;
+$coramed: #0B3294;
+$coramed-dark: #072267;
+$iqvia: #00A1DF;
+$iqvia-dark: #005487;
+
+// Fonts
+$font-family: 'Montserrat', sans-serif;
+
+// Font Sizes
+
+// Shadows
+$dropshadow: 0 5px 16px rgba(68, 68, 68, .25);

@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Case Studies
+  link: /case-studies
+  subpage:
+    - name: Pfizer
+      link: /case-studies/pfizer
+    - name: CoraMed
+      link: /case-studies/coramed
+    - name: IQVIA
+      link: /case-studies/iqvia
+- name: Contact
+  link: /contact

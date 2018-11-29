@@ -1,0 +1,21 @@
+---
+layout: default
+class: page
+---
+
+{% include banner-page.html %}
+
+<div class="container">
+  <div class="body-container">
+    <p>
+      {% assign author = site.authors | where: 'short_name', page.author | first %}
+      {{ author.name }} -
+      {{ page.date | date_to_string }} -
+      {% include reading-time.html %}
+    </p>
+
+    {{ content }}
+  </div>
+</div>
+
+{% include global-cta.html %}

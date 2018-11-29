@@ -1,0 +1,18 @@
+<header class="c-global-nav">
+  <div class="c-global-nav__wrapper">
+    <h1 class="c-global-nav__logo">
+      <a class="c-global-nav__logolink"href="/">DW</a>
+    </h1>
+    <a href="#dw-menu" class="c-global-nav__menu" aria-hidden="true">Menu</a>
+    <nav class="c-global-nav__nav" id="dw-menu">
+      <a href="#" class="c-global-nav__menu" aria-hidden="true">Close</a>
+      <ul class="c-global-nav__list">
+        {% for item in site.data.navigation %}
+        <li class="c-global-nav__listitem">
+          <a href="{{ item.link }}" class="c-global-nav__link {% if page.url == item.link %}is-selected parent{% endif %}" >{{ item.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

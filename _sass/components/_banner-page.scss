@@ -1,0 +1,17 @@
+// Banner - Page
+// -----------------------------------------------------------------------------
+.c-banner-page {
+  width: 100%;
+  padding: 3.2rem 0;
+  background-color: $gray-light;
+  background-image: url("../img/banner_background__page.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right bottom;
+  .c-banner-page__title {
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 1.25;
+    margin: 0;
+  }
+}

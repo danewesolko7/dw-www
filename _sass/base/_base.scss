@@ -1,0 +1,51 @@
+// Base
+// -----------------------------------------------------------------------------
+// html is set to 62.5% so that all the REM measurements
+// are based on 10px sizing. 1.5rem = 15px
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
+body {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: $font-family;
+  color: $font-color;
+}
+
+// Typography
+// -----------------------------------------------------------------------------
+h3,
+p,
+ul {
+  margin: 0;
+  margin-bottom: 1.6rem;
+}
+
+// Links
+// -----------------------------------------------------------------------------
+a {
+  color: $font-color;
+  text-decoration: none;
+  padding: .5rem .8rem;
+  border-bottom: thick solid $yellow;
+  cursor: pointer;
+  &:focus,
+  &:hover,
+  &:active {
+    color: $action;
+    border-bottom: thick solid $action;
+  }
+  &:focus {
+    outline: 2px solid orange;
+    outline-offset: 2px;
+  }
+}

@@ -1,0 +1,40 @@
+// Banner - Case Study
+// -----------------------------------------------------------------------------
+.c-banner-casestudy {
+  width: 100%;
+  min-height: 504px;
+  padding: 0 2.75rem;
+  @include breakpoint($medium) {
+    padding: 0 10em;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: $blue;
+  color: $white;
+  .c-banner-casestudy__title,
+  .c-banner-casestudy__desc {
+    width: 100%;
+    margin: 0;
+    max-width: $body-container;
+  }
+  .c-banner-casestudy__rule {
+    width: 48px;
+    height: 2px;
+    background-color: $white;
+    margin-bottom: 1.6rem;
+  }
+  .c-banner-casestudy__title {
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 1.25;
+    margin-bottom: 3.2rem;
+  }
+  .c-banner-casestudy__desc {
+    font-weight: 400;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.35;
+  }
+}

@@ -1,0 +1,8 @@
+// State
+// -----------------------------------------------------------------------------
+.is-selected {
+  border-bottom: thick solid $yellow;
+  &:hover {
+    border-bottom: thick solid $action;
+  }
+}

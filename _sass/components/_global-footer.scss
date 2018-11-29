@@ -1,0 +1,66 @@
+// Global Footer
+// -----------------------------------------------------------------------------
+.c-global-footer {
+  width: 100%;
+  line-height: 1;
+  .c-global-footer__wrapper {
+    height: 96px;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    @include breakpoint($medium) {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    align-items: center;
+    background-color: $gray;
+    color: $white;
+    .c-global-footer__logo,
+    .c-global-footer__info,
+    .c-global-footer__list {
+      margin: 0;
+    }
+    .c-global-footer__copyright {
+      width: 100%;
+      padding: .5rem .8rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      @include breakpoint($medium) {
+        width: 50%;
+        justify-content: flex-start;
+      }
+      .c-global-footer__logo {
+        font-size: 1.6rem;
+        font-weight: 900;
+      }
+      .c-global-footer__info {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-left: 1.2rem;
+      }
+    }
+    .c-global-footer__list {
+      width: 100%;
+      text-align: center;
+      @include breakpoint($medium) {
+        width: 50%;
+        text-align: right;
+      }
+      list-style-type: none;
+      padding-left: 0;
+      .c-global-footer__listitem {
+        display: inline;
+        .c-global-footer__listitem-link {
+          color: $white;
+          font-size: 1.2rem;
+          font-weight: 400;
+          border-bottom: none;
+          &:hover {
+            color: $action;
+          }
+        }
+      }
+    }
+  }
+}
