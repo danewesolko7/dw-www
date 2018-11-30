@@ -1,17 +1,19 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-    {% favicon %}
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  {% feed_meta %}
+  {% seo %}
+  {% favicon %}
+</head>
 
-  <body class="{{ page.class }}">
+<body class="{{ page.class }}">
+  <main>
     {% include global-header.html %}
     {{ content }}
     {% include global-footer.html %}
-  </body>
+  </main>
+</body>
 </html>
