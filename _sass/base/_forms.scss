@@ -4,17 +4,14 @@ label,
 input,
 textarea {
   width: 100%;
-}
-
-input {
-  height: 3.6rem;
-  margin-bottom: 2.4rem;
+  font-family: inherit;
 }
 
 input,
 textarea {
+  margin-top: .3rem;
   margin-bottom: 2.4rem;
-  border: thin $gray solid;
+  border: thin $gray-medium solid;
   padding: 1.2rem;
   &:focus,
   &:active {
@@ -23,6 +20,22 @@ textarea {
   }
 }
 
+label {
+  font-size: 1.4rem;
+}
+
+input {
+  height: 4.2rem;
+}
+
 textarea {
-  height: 9.6rem;
+  height: 12rem;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  @extend .c-button;
+  width: auto;
+  margin: 0;
 }

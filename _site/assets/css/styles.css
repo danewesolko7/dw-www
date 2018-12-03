@@ -349,19 +349,36 @@ a {
     outline: 2px solid orange;
     outline-offset: 2px; }
 
+.c-button, input[type=button],
+input[type=submit],
+input[type=reset] {
+  cursor: pointer;
+  background-color: #FF5E5E;
+  border: none;
+  border-radius: .4rem;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 3rem;
+  transition: all .2s ease-in-out;
+  box-shadow: 0 5px 16px rgba(68, 68, 68, 0.25); }
+  .c-button:hover, input[type=button]:hover,
+  input[type=submit]:hover,
+  input[type=reset]:hover {
+    background-color: #CC4B4B;
+    transform: scale(1.0375); }
+
 label,
 input,
 textarea {
-  width: 100%; }
-
-input {
-  height: 3.6rem;
-  margin-bottom: 2.4rem; }
+  width: 100%;
+  font-family: inherit; }
 
 input,
 textarea {
+  margin-top: .3rem;
   margin-bottom: 2.4rem;
-  border: thin #444444 solid;
+  border: thin #D9D9D9 solid;
   padding: 1.2rem; }
   input:focus, input:active,
   textarea:focus,
@@ -369,8 +386,20 @@ textarea {
     outline: 2px solid orange;
     outline-offset: 2px; }
 
+label {
+  font-size: 1.4rem; }
+
+input {
+  height: 4.2rem; }
+
 textarea {
-  height: 9.6rem; }
+  height: 12rem; }
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  width: auto;
+  margin: 0; }
 
 .container {
   margin: 0 auto;
