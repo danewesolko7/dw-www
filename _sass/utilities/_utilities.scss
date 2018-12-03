@@ -12,6 +12,12 @@
     padding: 9.6rem;
   }
 }
+.u-pad__sm {
+  padding: 3.2rem;
+  @include breakpoint($medium) {
+    padding: 4.8rem;
+  }
+}
 
 .u-mar__bot {
   margin-bottom: 3.2rem;

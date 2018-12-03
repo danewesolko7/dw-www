@@ -738,7 +738,6 @@ textarea {
 
 .c-banner-page {
   width: 100%;
-  padding: 3.2rem 0;
   background-color: #F5F5F5;
   background-image: url("../img/banner_background__page.svg");
   background-repeat: no-repeat;
@@ -917,6 +916,12 @@ textarea {
   @media (min-width: 1024px) {
     .u-pad {
       padding: 9.6rem; } }
+
+.u-pad__sm {
+  padding: 3.2rem; }
+  @media (min-width: 1024px) {
+    .u-pad__sm {
+      padding: 4.8rem; } }
 
 .u-mar__bot {
   margin-bottom: 3.2rem; }
