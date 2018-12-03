@@ -37,8 +37,11 @@
       display: inline-block;
       text-align: center;
       padding: 1rem 3rem;
+      transition: all .2s ease-in-out;
+      box-shadow: $dropshadow;
       &:hover {
         background-color: $action-hover;
+        transform: scale(1.0375);
       }
     }
   }

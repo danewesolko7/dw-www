@@ -31,8 +31,8 @@
       flex-direction: column;
       align-items: stretch;
       align-content: stretch;
-      box-shadow: $dropshadow;
       transition: all .2s ease-in-out;
+      box-shadow: $dropshadow;
       &:hover {
         transform: scale(1.0375);
       }
