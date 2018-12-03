@@ -401,6 +401,9 @@ input[type=reset] {
   width: auto;
   margin: 0; }
 
+::placeholder {
+  color: #D9D9D9; }
+
 .container {
   margin: 0 auto;
   max-width: 1200px; }

@@ -39,3 +39,7 @@ input[type=reset] {
   width: auto;
   margin: 0;
 }
+
+::placeholder {
+  color: $gray-medium;
+}

@@ -6,15 +6,17 @@ class: page
 {% include banner-page.html %}
 <div class="u-pad">
   <div class="body-container">
-    <form>
+    <form method="post" action="https://formspree.io/danewesolko@gmail.com">
       <label for="name">Name</label>
-      <input type="text" name="name">
+      <input type="text" name="name" placeholder="Your name"/>
       <label for="email">Email</label>
-      <input type="email" name="_replyto">
+      <input type="text" name="_replyto" placeholder="Your email"/>
       <label for="message">Message</label>
-      <textarea name="message"></textarea>
-      <input type="submit" value="Send">
-      <input type="hidden" name="_next" value="/thanks" />
+      <textarea name="message" placeholder="Your message"></textarea>
+      <button class="c-button"type="submit">Submit</button>
+      <input type="hidden" name="_next" value="/thank-you"/>
+      <input type="hidden" name="_subject" value="New DW contact form submission!"/>
+      <input type="hidden" name="_format" value="plain"/>
     </form>
   </div>
 </div>
