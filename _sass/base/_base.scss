@@ -3,6 +3,12 @@
 // html is set to 62.5% so that all the REM measurements
 // are based on 10px sizing. 1.5rem = 15px
 
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -19,6 +25,12 @@ body {
   line-height: 1.6;
   font-family: $font-family;
   color: $font-color;
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 // Typography

@@ -304,6 +304,11 @@ template {
 [hidden] {
   display: none; }
 
+html,
+body {
+  height: 100%;
+  position: relative; }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -319,6 +324,11 @@ body {
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
   color: #444444; }
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
 
 h3,
 p,
@@ -496,7 +506,8 @@ textarea {
 
 .c-global-footer {
   width: 100%;
-  line-height: 1; }
+  line-height: 1;
+  margin-top: auto; }
   .c-global-footer .c-global-footer__wrapper {
     height: 96px;
     padding: 2em;
