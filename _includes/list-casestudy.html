@@ -4,12 +4,14 @@
   {% endif %}
   <ul class="c-case-study__list">
     {% for item in site.data.case-studies %}
-    <li class="c-case-study__listitem">
+    <li class="c-case-study__listitem" onclick="window.location='{{ item.link }}';">
       <img class="c-case-study__listitem-graphic" src="{{ item.image }}">
       <div class="c-case-study__listitem-wrapper">
         <h3 class="c-case-study__listitem-title">{{ item.name }}</h3>
         <p class="c-case-study__listitem-desc">{{ item.description }}</p>
-        <a class="c-case-study__listitem-link" href="{{ item.link }}">View case study</a>
+      </div>
+      <div class="c-case-study__listitem-link">
+        <a href="{{ item.link }}">View case study</a>
       </div>
     </li>
     {% endfor %}
