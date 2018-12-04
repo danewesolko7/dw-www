@@ -617,26 +617,22 @@ input[type=reset] {
     .c-case-study .c-case-study__list .c-case-study__listitem {
       border-radius: .4rem;
       width: 100%;
-      margin-bottom: 3.6rem;
       display: flex;
       flex-direction: column;
-      align-items: stretch;
-      align-content: stretch;
       transition: all .2s ease-in-out;
+      margin-bottom: 3.6rem;
       box-shadow: 0 5px 16px rgba(68, 68, 68, 0.25); }
+      .c-case-study .c-case-study__list .c-case-study__listitem:hover {
+        transform: scale(1.0375);
+        cursor: pointer; }
       @media (min-width: 1024px) {
         .c-case-study .c-case-study__list .c-case-study__listitem {
-          width: calc(95% / 3); } }
-      .c-case-study .c-case-study__list .c-case-study__listitem:hover {
-        transform: scale(1.0375); }
+          width: calc(95% / 3);
+          margin-bottom: 0; } }
       .c-case-study .c-case-study__list .c-case-study__listitem .c-case-study__listitem-graphic {
         width: 100%; }
       .c-case-study .c-case-study__list .c-case-study__listitem .c-case-study__listitem-wrapper {
-        padding: 3.6rem 2.4rem;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: flex-start; }
+        padding: 3.6rem 2.4rem; }
         .c-case-study .c-case-study__list .c-case-study__listitem .c-case-study__listitem-wrapper .c-case-study__listitem-title {
           font-weight: 700;
           font-size: 1.8rem;
@@ -644,16 +640,10 @@ input[type=reset] {
           margin: 0;
           margin-bottom: 2.4rem; }
         .c-case-study .c-case-study__list .c-case-study__listitem .c-case-study__listitem-wrapper .c-case-study__listitem-desc {
-          margin: 0;
-          margin-bottom: 2.4rem; }
-        .c-case-study .c-case-study__list .c-case-study__listitem .c-case-study__listitem-wrapper .c-case-study__listitem-link {
-          margin-top: auto; }
-
-.yadda {
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  border-bottom: none; }
+          margin: 0; }
+      .c-case-study .c-case-study__list .c-case-study__listitem .c-case-study__listitem-link {
+        margin-top: auto;
+        padding: 0 2.4rem 3.6rem 2.4rem; }
 
 .c-writing {
   width: 100%; }
