@@ -1,8 +1,13 @@
 <section class="c-banner-casestudy">
-  {% include breadcrumb.html %}
-  <h1 class="c-banner-casestudy__title">{{ page.title }}</h1>
-  <div class="c-banner-casestudy__rule"></div>
-  <p class="c-banner-casestudy__desc">{{ page.description }}</p>
+  <div class="c-banner-casestudy__container">
+    <div class="c-banner-casestudy__wrapper">
+      {% include breadcrumb.html %}
+      <h1 class="c-banner-casestudy__title">{{ page.title }}</h1>
+      <div class="c-banner-casestudy__rule"></div>
+      <p class="c-banner-casestudy__desc">{{ page.description }}</p>
+    </div>
+    <img class="c-banner-casestudy__graphic" src="{{ page.image }}"/>
+  </div>
 </section>
 <section class="c-intro-casestudy u-pad">
   <div class="body-container">

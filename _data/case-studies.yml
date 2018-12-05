@@ -1,12 +1,12 @@
 - name: Helping patients get the medicine they need
   description: How can we help sales representatives more effectively close cases, physicians write scripts and provide patients with the medicine they need?
   link: /case-studies/pfizer
-  image: "../assets/img/card_background__pfizer.svg"
+  image: "../assets/img/card_background__pfizer.png"
 - name: Reinventing the comparator sourcing industry
   description: How can we make it easier to develop supply strategies, forecast risk, gain real-time market intelligence and procure comparator drugs for clinical trials?
   link: /case-studies/coramed
-  image: "../assets/img/card_background__coramed.svg"
+  image: "../assets/img/card_background__coramed.png"
 - name: Accessing insight from real-world evidence
   description: How can we provide users with access to European real-world evidence and expand a company's product portfolio?
   link: /case-studies/iqvia
-  image: "../assets/img/card_background__iqvia.svg"
+  image: "../assets/img/card_background__iqvia.png"
