@@ -9,7 +9,7 @@
       <ul class="c-global-nav__list">
         {% for item in site.data.navigation %}
         <li class="c-global-nav__listitem">
-          <a href="{{ item.link }}" class="c-global-nav__link {% if page.url == item.link %}is-selected parent{% endif %}" >{{ item.name }}</a>
+          <a href="{{ item.link }}" class="c-global-nav__link {% if page.url == item.link %}is-selected{% endif %}" >{{ item.name }}</a>
         </li>
         {% endfor %}
       </ul>
