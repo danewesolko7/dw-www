@@ -945,6 +945,12 @@ input[type=reset] {
 .pfizer .c-casestudy-results {
   background-color: #615C96; }
 
+.pfizer .c-banner-casestudy__graphic {
+  padding-left: 0; }
+  @media (min-width: 1024px) {
+    .pfizer .c-banner-casestudy__graphic {
+      padding-left: 4.2rem; } }
+
 .coramed .c-global-nav .c-global-nav__wrapper,
 .coramed .c-banner-casestudy {
   background-color: #0B3294; }

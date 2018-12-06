@@ -13,6 +13,13 @@
   background-color: $pfizer-dark;
 }
 
+.pfizer .c-banner-casestudy__graphic {
+  padding-left: 0;
+  @include breakpoint($medium) {
+    padding-left: 4.2rem;
+  }
+}
+
 .coramed .c-global-nav .c-global-nav__wrapper,
 .coramed .c-banner-casestudy {
   background-color: $coramed;
