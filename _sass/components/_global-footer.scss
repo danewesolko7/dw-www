@@ -5,8 +5,8 @@
   line-height: 1;
   margin-top: auto;
   .c-global-footer__wrapper {
-    height: 96px;
-    padding: 2em;
+    height: $jumbo;
+    padding: $gamma;
     display: flex;
     flex-wrap: wrap;
     @include breakpoint($medium) {
@@ -23,7 +23,7 @@
     }
     .c-global-footer__copyright {
       width: 100%;
-      padding: .5rem .8rem;
+      padding: $kappa $iota;
       display: inline-flex;
       justify-content: center;
       align-items: center;
@@ -32,13 +32,13 @@
         justify-content: flex-start;
       }
       .c-global-footer__logo {
-        font-size: 1.6rem;
+        font-size: $epsilon;
         font-weight: 900;
       }
       .c-global-footer__info {
-        font-size: 1.2rem;
+        font-size: $eta;
         font-weight: 400;
-        margin-left: 1.2rem;
+        margin-left: $eta;
       }
     }
     .c-global-footer__list {
@@ -54,7 +54,7 @@
         display: inline;
         .c-global-footer__listitem-link {
           color: $white;
-          font-size: 1.2rem;
+          font-size: $eta;
           font-weight: 400;
           border-bottom: none;
           &:hover {

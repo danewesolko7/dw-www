@@ -1,9 +1,14 @@
 // Banner Case Study Reflections
 // -----------------------------------------------------------------------------
 .c-casestudy-reflections {
+  width: 100%;
+  @extend .u-pad;
+  .c-casestudy-reflections__wrapper {
+    @extend .body-container;
+  }
   .c-casestudy-reflections__title,
   .c-casestudy-reflections__list {
     margin: 0;
-    margin-bottom: 1.6rem;
+    margin-bottom: $epsilon;
   }
 }

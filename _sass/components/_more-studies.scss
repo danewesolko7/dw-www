@@ -1,37 +1,41 @@
 // More Studies
 // -----------------------------------------------------------------------------
-.c-more-studies {
+.c-casestudy-more {
   width: 100%;
   border-top: thick solid $gray-light;
-  .c-more-studies__list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    @include breakpoint($medium) {
-      justify-content: space-between;
-    }
-    align-items: stretch;
-    .c-more-studies__link-prev,
-    .c-more-studies__link-next {
-      margin-bottom: 2.4rem;
-      @include breakpoint($medium) {
-        margin-bottom: 0;
-      }
-    }
-    .c-more-studies__link-prev a,
-    .c-more-studies__link-next a {
+  .c-casestudy-more__wrapper {
+    @extend .u-pad;
+    @extend .large-container;
+    .c-casestudy-more__list {
+      margin: 0;
       padding: 0;
-    }
-    .c-more-studies__link-prev a::before {
-      content: '\2190';
-      padding-right: 1rem;
-    }
-    .c-more-studies__link-next a::after {
-      content: '\2192';
-      padding-left: 1rem;
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      @include breakpoint($medium) {
+        justify-content: space-between;
+      }
+      align-items: stretch;
+      .c-casestudy-more__link-prev,
+      .c-casestudy-more__link-next {
+        margin-bottom: $gamma;
+        @include breakpoint($medium) {
+          margin-bottom: 0;
+        }
+      }
+      .c-casestudy-more__link-prev a,
+      .c-casestudy-more__link-next a {
+        padding: 0;
+      }
+      .c-casestudy-more__link-prev a::before {
+        content: '\2190';
+        padding-right: $theta;
+      }
+      .c-casestudy-more__link-next a::after {
+        content: '\2192';
+        padding-left: $theta;
+      }
     }
   }
 }

@@ -1,52 +1,52 @@
 // Banner - Case Study
 // -----------------------------------------------------------------------------
-.c-banner-casestudy {
+.c-casestudy-banner {
   width: 100%;
   min-height: 504px;
   background-color: $blue;
   color: $white;
-  .c-banner-casestudy__container {
+  .c-casestudy-banner__container {
     @extend .large-container;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.4rem 3.2rem;
+    padding: $gamma $beta;
     @include breakpoint($medium) {
       flex-direction: row;
       justify-content: space-between;
     }
-    .c-banner-casestudy__wrapper {
+    .c-casestudy-banner__wrapper {
       max-width: $body-container;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-      .c-banner-casestudy__title,
-      .c-banner-casestudy__desc {
+      .c-casestudy-banner__title,
+      .c-casestudy-banner__desc {
         width: 100%;
         margin: 0;
       }
-      .c-banner-casestudy__rule {
-        width: 48px;
+      .c-casestudy-banner__rule {
+        width: $alpha;
         height: 2px;
         background-color: $white;
-        margin-bottom: 1.6rem;
+        margin-bottom: $epsilon;
       }
-      .c-banner-casestudy__title {
+      .c-casestudy-banner__title {
         font-weight: 900;
-        font-size: 4.8rem;
+        font-size: $alpha;
         line-height: 1.25;
-        margin-bottom: 3.2rem;
+        margin-bottom: $beta;
       }
-      .c-banner-casestudy__desc {
+      .c-casestudy-banner__desc {
         font-weight: 400;
-        font-size: 2.4rem;
-        margin-bottom: 1.6rem;
+        font-size: $gamma;
+        margin-bottom: $epsilon;
         line-height: 1.35;
       }
     }
-    .c-banner-casestudy__graphic {
+    .c-casestudy-banner__graphic {
       max-width: 100%;
       height: auto;
       max-height: 600px;

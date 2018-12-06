@@ -39,7 +39,7 @@ h3,
 p,
 ul {
   margin: 0;
-  margin-bottom: 1.6rem;
+  margin-bottom: $epsilon;
 }
 
 // Links
@@ -47,7 +47,7 @@ ul {
 a {
   color: $font-color;
   text-decoration: none;
-  padding: .5rem .8rem;
+  padding: $iota $theta;
   border-bottom: thick solid $yellow;
   cursor: pointer;
   &:focus,

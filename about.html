@@ -4,13 +4,11 @@ class: page
 ---
 
 {% include banner-page.html %}
-
-<div class="u-pad">
-  <div class="body-container">
+<section class="c-page-content">
+  <div class="c-page-content__wrapper">
     {% for author in site.authors %}
     <p>{{ author.content | markdownify }}</p>
     {% endfor %}
   </div>
-</div>
-
+</section>
 {% include global-cta.html %}

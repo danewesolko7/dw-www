@@ -1,16 +1,16 @@
-<section class="c-case-study u-pad">
+<section class="c-casestudy-list">
   {% if page.url == "/" %}
-  <h3 class="c-case-study__title">Case studies</h3>
+  <h3 class="c-casestudy-list__title">Case studies</h3>
   {% endif %}
-  <ul class="c-case-study__list">
+  <ul class="c-casestudy-list__list">
     {% for item in site.data.case-studies %}
-    <li class="c-case-study__listitem" onclick="window.location='{{ item.link }}';">
-      <img class="c-case-study__listitem-graphic" src="{{ item.image }}">
-      <div class="c-case-study__listitem-wrapper">
-        <h3 class="c-case-study__listitem-title">{{ item.name }}</h3>
-        <p class="c-case-study__listitem-desc">{{ item.description }}</p>
+    <li class="c-casestudy-list__listitem" onclick="window.location='{{ item.link }}';">
+      <img class="c-casestudy-list__listitem-graphic" src="{{ item.image }}">
+      <div class="c-casestudy-list__listitem-wrapper">
+        <h3 class="c-casestudy-list__listitem-title">{{ item.name }}</h3>
+        <p class="c-casestudy-list__listitem-desc">{{ item.description }}</p>
       </div>
-      <div class="c-case-study__listitem-link">
+      <div class="c-casestudy-list__listitem-link">
         <a href="{{ item.link }}">View case study</a>
       </div>
     </li>

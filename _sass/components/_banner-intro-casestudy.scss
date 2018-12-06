@@ -1,6 +1,7 @@
 // Banner - Intro Case Study
 // -----------------------------------------------------------------------------
-.c-intro-casestudy {
+.c-casestudy-intro {
+  @extend .u-pad;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -8,15 +9,18 @@
   align-items: flex-start;
   background-color: $blue-dark;
   color: $white;
-  .c-intro-casestudy__desc {
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 1.8;
-  }
-  .c-intro-casestudy__link {
-    color: $white;
-    &:hover {
-      color: $action;
+  .c-casestudy-intro__wrapper {
+    @extend .body-container;
+    .c-casestudy-intro__desc {
+      font-weight: 400;
+      font-size: $delta;
+      line-height: 1.8;
+    }
+    .c-casestudy-intro__link {
+      color: $white;
+      &:hover {
+        color: $action;
+      }
     }
   }
 }

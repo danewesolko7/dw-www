@@ -3,14 +3,15 @@ title: Home
 ---
 
 <header class="c-banner-hero">
-  <h1 class="c-banner-hero__title">Dane Wesolko</h1>
-  <div class="c-banner-hero__rule"></div>
-  <h2 class="c-banner-hero__subtitle">Turning thoughts into things</h2>
-  <p class="c-banner-hero__desc">Helping early stage teams prototype new solutions or improve on existing ones</p>
+  <div class="c-banner-hero__wrapper">
+    <h1 class="c-banner-hero__title">Dane Wesolko</h1>
+    <div class="c-banner-hero__rule"></div>
+    <h2 class="c-banner-hero__subtitle">Turning thoughts into things</h2>
+    <p class="c-banner-hero__desc">Helping early stage teams prototype new solutions or improve on existing ones</p>
+  </div>
 </header>
-
 <section class="c-banner-intro">
-  <div class="container u-pad">
+  <div class="c-banner-intro__wrapper">
     <h2 class="c-banner-intro__title">Fluid and flexible built on 4 core principles</h2>
     <ol class="c-banner-intro__list">
       <li class="c-banner-intro__listitem">
@@ -28,9 +29,5 @@ title: Home
     </ol>
   </div>
 </section>
-
-<div class="container">
-  {% include list-casestudy.html %}
-</div>
-
+{% include list-casestudy.html %}
 {% include global-cta.html %}

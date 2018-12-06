@@ -1,12 +1,12 @@
 // Breadcrumb
 // -----------------------------------------------------------------------------
 .c-breadcrumb {
-  font-size: 1.2rem;
-  margin-bottom: .4rem;
+  font-size: $eta;
+  margin-bottom: $kappa;
   .c-breadcrumb__current,
   .c-breadcrumb__link {
     color: $white;
-    padding: 0 .5rem;
+    padding: 0 $iota;
     border-bottom: none;
   }
   .c-breadcrumb__link:hover {

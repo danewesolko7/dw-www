@@ -5,35 +5,35 @@
 }
 
 .pfizer .c-global-nav .c-global-nav__wrapper,
-.pfizer .c-banner-casestudy {
+.pfizer .c-casestudy-banner {
   background-color: $pfizer;
 }
-.pfizer .c-intro-casestudy,
+.pfizer .c-casestudy-intro,
 .pfizer .c-casestudy-results {
   background-color: $pfizer-dark;
 }
 
-.pfizer .c-banner-casestudy__graphic {
+.pfizer .c-casestudy-banner__graphic {
   padding-left: 0;
   @include breakpoint($medium) {
-    padding-left: 4.2rem;
+    padding-left: $alpha;
   }
 }
 
 .coramed .c-global-nav .c-global-nav__wrapper,
-.coramed .c-banner-casestudy {
+.coramed .c-casestudy-banner {
   background-color: $coramed;
 }
-.coramed .c-intro-casestudy,
+.coramed .c-casestudy-intro,
 .coramed .c-casestudy-results {
   background-color: $coramed-dark;
 }
 
 .iqvia .c-global-nav .c-global-nav__wrapper,
-.iqvia .c-banner-casestudy {
+.iqvia .c-casestudy-banner {
   background-color: $iqvia;
 }
-.iqvia .c-intro-casestudy,
+.iqvia .c-casestudy-intro,
 .iqvia .c-casestudy-results {
   background-color: $iqvia-dark;
 }

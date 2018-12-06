@@ -1,6 +1,7 @@
 // Global Header
 // -----------------------------------------------------------------------------
 .c-global-cta {
+  @extend .u-pad;
   width: 100%;
   background-color: $yellow;
   background-image: url("../img/banner_background__cta.svg");
@@ -11,10 +12,10 @@
     max-width: $body-container;
     margin: 0 auto;
     .c-global-cta__rule {
-      width: 48px;
+      width: $alpha;
       height: 2px;
       background-color: $gray;
-      margin-bottom: 1.6rem;
+      margin-bottom: $epsilon;
     }
     .c-global-cta__title,
     .c-global-cta__desc {
@@ -22,27 +23,15 @@
     }
     .c-global-cta__title {
       font-weight: 400;
-      font-size: 2.4rem;
-      margin-bottom: 1.6rem;
+      font-size: $gamma;
+      margin-bottom: $epsilon;
     }
     .c-global-cta__desc {
-      font-size: 1.8rem;
-      margin-bottom: 3.2rem;
+      font-size: $delta;
+      margin-bottom: $beta;
     }
     .c-global-cta__button {
-      background-color: $action;
-      border-bottom: none;
-      border-radius: .4rem;
-      color: white;
-      display: inline-block;
-      text-align: center;
-      padding: 1rem 3rem;
-      transition: all .2s ease-in-out;
-      box-shadow: $dropshadow;
-      &:hover {
-        background-color: $action-hover;
-        transform: scale(1.0375);
-      }
+      @extend .c-button;
     }
   }
 }

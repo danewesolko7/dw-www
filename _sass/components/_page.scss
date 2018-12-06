@@ -1,0 +1,8 @@
+// Page
+// -----------------------------------------------------------------------------
+.c-page-content {
+  @extend .u-pad;
+  .c-page-content__wrapper {
+    @extend .body-container;
+  }
+}

@@ -1,0 +1,47 @@
+// Article Case Study
+// -----------------------------------------------------------------------------
+.c-casestudy {
+  @extend .u-pad;
+  position: relative;
+  .c-casestudy-article {
+    width: $body-container;
+    margin: 0 auto;
+  }
+  .c-casestudy-aside {
+    position: absolute;
+    padding: $alpha;
+    top: $jumbo;
+    left: 62.5%;
+    margin-left: $alpha-major;
+    z-index: 999;
+    background-color: $gray-light;
+    display: flex;
+    flex-direction: column;
+    width: $body-container / 2;
+    .c-casestudy-aside__wrapper {
+      width: 100;
+      .c-casestudy-aside__title {
+        font-size: $zeta;
+        margin: 0;
+      }
+      .c-casestudy-aside__list {
+        font-size: $zeta;
+        margin: 0;
+        padding-left: 0;
+        li {
+          list-style-type: none;
+          margin-bottom: $theta;
+          ul {
+            padding-left: 0;
+            margin: 0;
+            li {
+              margin-left: $iota;
+              margin-bottom: 0;
+              font-size: $eta;
+            }
+          }
+        }
+      }
+    }
+  }
+}
