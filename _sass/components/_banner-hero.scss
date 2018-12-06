@@ -28,7 +28,7 @@
     }
     .c-banner-hero__subtitle,
     .c-banner-hero__desc{
-      line-height: 1.35;
+      line-height: $lh-md;
     }
     .c-banner-hero__rule {
       width: $alpha;
@@ -39,7 +39,7 @@
     .c-banner-hero__title {
       font-weight: 900;
       font-size: $alpha;
-      line-height: 1.25;
+      line-height: $lh-sm;
       margin-bottom: $beta;
     }
     .c-banner-hero__subtitle {

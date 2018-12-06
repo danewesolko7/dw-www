@@ -37,6 +37,12 @@ $iqvia-dark: #005487;
 // Fonts
 $font-family: 'Montserrat', sans-serif;
 
+// Line height
+$lh-lrg: 1.8;
+$lh-md: 1.35;
+$lh-sm: 1.25;
+$lh-base: 1;
+
 // Sizes
 $jumbo: 9.6rem;
 $alpha-major: 6.4rem;
@@ -51,6 +57,10 @@ $eta: 1.2rem;
 $theta: .8rem;
 $iota: .6rem;
 $kappa: .4rem;
+
+// Borders
+$border-gray: thin $gray-medium solid;
+$border-orange: 2px solid orange;
 
 // Shadows
 $dropshadow: 0 5px 16px rgba(68, 68, 68, .25);

@@ -1,3 +1,14 @@
+title: "Dane Wesolko"
+description: "Product Designer with a passion for Healthcare and Life Sciences."
+url: "https://danewesolko.com"
+
+# Site owner
+author:
+  name: "Dane Wesolko"
+  uri: &uri "https://danewesolko.com/about/"
+  url: *uri
+  bio: "Product Designer with a passion for Healthcare and Life Sciences."
+
 exclude:
   - Gemfile
   - Gemfile.lock

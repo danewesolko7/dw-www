@@ -7,7 +7,7 @@
   .c-casestudy-list__title {
     font-weight: 400;
     font-size: $delta;
-    line-height: 1.35;
+    line-height: $lh-md;
     margin: 0;
     margin-bottom: $gamma;
   }
@@ -46,7 +46,7 @@
         .c-casestudy-list__listitem-title {
           font-weight: 700;
           font-size: $delta;
-          line-height: 1.35;
+          line-height: $lh-md;
           margin: 0;
           margin-bottom: $gamma;
         }

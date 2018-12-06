@@ -3,6 +3,8 @@
 button,
 .c-button {
   cursor: pointer;
+  width: auto;
+  height: $alpha;
   background-color: $action;
   border: none;
   border-radius: $kappa;

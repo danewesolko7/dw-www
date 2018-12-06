@@ -36,14 +36,14 @@
       .c-casestudy-banner__title {
         font-weight: 900;
         font-size: $alpha;
-        line-height: 1.25;
+        line-height: $lh-sm;
         margin-bottom: $beta;
       }
       .c-casestudy-banner__desc {
         font-weight: 400;
         font-size: $gamma;
         margin-bottom: $epsilon;
-        line-height: 1.35;
+        line-height: $lh-md;
       }
     }
     .c-casestudy-banner__graphic {

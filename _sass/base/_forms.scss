@@ -6,7 +6,6 @@ textarea {
   width: 100%;
   font-family: inherit;
 }
-
 input,
 textarea {
   margin-top: $kappa;
@@ -15,28 +14,21 @@ textarea {
   padding: $eta;
   &:focus,
   &:active {
-    outline: 2px solid orange;
+    outline: $border-orange;
     outline-offset: 2px;
   }
 }
-
 label {
   font-size: $zeta;
 }
-
 input {
-  height: 4.2rem;
+  height: $alpha;
 }
-
 textarea {
-  height: 12rem;
+  height: $jumbo * 2;
 }
-
-input[type=button],
-input[type=submit],
-input[type=reset] {
+input[type=submit] {
   @extend .c-button;
-  width: auto;
   margin: 0;
 }
 

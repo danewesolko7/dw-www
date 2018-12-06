@@ -351,11 +351,11 @@ a {
 
 button,
 .c-button,
-input[type=button],
 input[type=submit],
-input[type=reset],
 .c-global-cta .c-global-cta__wrapper .c-global-cta__button {
   cursor: pointer;
+  width: auto;
+  height: 4.8rem;
   background-color: #FF5E5E;
   border: none;
   border-radius: 0.4rem;
@@ -367,9 +367,7 @@ input[type=reset],
   box-shadow: 0 5px 16px rgba(68, 68, 68, 0.25); }
   button:hover,
   .c-button:hover,
-  input[type=button]:hover,
   input[type=submit]:hover,
-  input[type=reset]:hover,
   .c-global-cta .c-global-cta__wrapper .c-global-cta__button:hover {
     background-color: #CC4B4B;
     transform: scale(1.0375); }
@@ -396,15 +394,12 @@ label {
   font-size: 1.4rem; }
 
 input {
-  height: 4.2rem; }
+  height: 4.8rem; }
 
 textarea {
-  height: 12rem; }
+  height: 19.2rem; }
 
-input[type=button],
-input[type=submit],
-input[type=reset] {
-  width: auto;
+input[type=submit] {
   margin: 0; }
 
 ::placeholder {
