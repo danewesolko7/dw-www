@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://danewesolko.com/about</loc>
+<loc>/about</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/case-studies</loc>
+<loc>/case-studies</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/contact</loc>
+<loc>/contact</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/case-studies/coramed</loc>
+<loc>/case-studies/coramed</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/</loc>
+<loc>/</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/case-studies/iqvia</loc>
+<loc>/case-studies/iqvia</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/case-studies/pfizer</loc>
+<loc>/case-studies/pfizer</loc>
 </url>
 <url>
-<loc>https://danewesolko.com/thank-you</loc>
+<loc>/thank-you</loc>
 </url>
 </urlset>

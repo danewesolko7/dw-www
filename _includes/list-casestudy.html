@@ -11,7 +11,7 @@
         <p class="c-casestudy-list__listitem-desc">{{ item.description }}</p>
       </div>
       <div class="c-casestudy-list__listitem-link">
-        <a href="{{ item.link }}">View case study</a>
+        <a href="{{ item.link | prepend: site.url }}">View case study</a>
       </div>
     </li>
     {% endfor %}
